@@ -1,0 +1,27 @@
+{
+  "environment": "demo",
+  "disclaimer": "Fictional sample data; no bank accounts are linked.",
+  "currency": "USD",
+  "profile": { "name": "Alex (fictional)" },
+  "forecast_period": "illustrative_next_month",
+  "accounts": [
+    { "id": "checking", "label": "Checking", "starting_balance_cents": 120000 },
+    { "id": "savings", "label": "Savings", "starting_balance_cents": 350000 }
+  ],
+  "net_monthly_income_cents": 320000,
+  "planned_monthly_expenses": [
+    { "category": "Rent", "amount_cents": 135000, "optional": false },
+    { "category": "Groceries", "amount_cents": 40000, "optional": false },
+    { "category": "Transportation", "amount_cents": 20000, "optional": false },
+    { "category": "Utilities", "amount_cents": 20000, "optional": false },
+    { "category": "Debt Payment", "amount_cents": 30000, "optional": false },
+    { "category": "Subscriptions", "amount_cents": 6000, "optional": true },
+    { "category": "Entertainment", "amount_cents": 24000, "optional": true },
+    { "category": "Other", "amount_cents": 15000, "optional": false }
+  ],
+  "checking_safety_buffer_cents": 50000,
+  "example_scenario": {
+    "name": "Unexpected car repair",
+    "one_time_expense_cents": 130000
+  }
+}
